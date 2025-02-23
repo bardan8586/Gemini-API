@@ -5,8 +5,7 @@ const fileInput = document.querySelector("#file-input");
 const fileUploadWrapper = document.querySelector(".file-upload-wrapper");
 const fileCancelButton = fileUploadWrapper.querySelector("#file-cancel");
 const chatBody = document.querySelector(".chat-body");
-//gdhgghdghh
-//test for chatbot branch
+
 
 
 const userData = {
@@ -61,10 +60,10 @@ const handleInputMessage = (e) => {
                   </svg>
 
             <div class="message-text">
-             <div class="thinking-indicator">
-                 <div class="dot"></div>
-                 <div class="dot"></div>
-                 <div class="dot"></div>
+                <div class="thinking-indicator">
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
                 </div>
             </div>`;
 
